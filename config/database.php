@@ -32,7 +32,7 @@ return [
     | choice installed on your machine before you begin development.
     |
     */
-
+    'autocrlf'=>true,
     'connections' => [
 
         'sqlite' => [
@@ -47,10 +47,10 @@ return [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'port' => env('DB_PORT', 'db4free.net'),
+            'database' => env('DB_DATABASE', 'ecomm'),
+            'username' => env('DB_USERNAME', 'aliounedevelopp'),
+            'password' => env('DB_PASSWORD', "alioune'sdb"),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
