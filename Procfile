@@ -1,1 +1,1 @@
-web: heroku-php-apache2 public/
+web: vendo/bin/heroku-php-apache2 public/
